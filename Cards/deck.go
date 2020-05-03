@@ -45,7 +45,7 @@ func (d ceetu) saveToDrive(fileName string) error {
 func newDeckFromDrive(fileName string) (d ceetu) {
 	bs, err := ioutil.ReadFile(fileName)
 	if err != nil {
-		fmt.Println("Error1:", err)
+		fmt.Println("Error2:", err)
 		os.Exit(1)
 
 	}
